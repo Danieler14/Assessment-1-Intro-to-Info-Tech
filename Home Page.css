@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    
+}
+a:link, a:visited { /* link button */
+    background-color: yellow;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active { /*link button when hovering*/
+    background-color: green;
+    color: white;
+}

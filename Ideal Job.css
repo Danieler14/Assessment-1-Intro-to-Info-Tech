@@ -1,6 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(to right, violet, royalblue);
+    background-image: linear-gradient(to right, #603F83FF, #C7D3D4FF);
     text-align: center;
     font-size: 30px;
     color: white;
@@ -26,3 +26,18 @@ body {
     background-color: plum;
     color: white;
 }
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }

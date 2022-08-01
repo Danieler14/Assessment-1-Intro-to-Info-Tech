@@ -1,13 +1,13 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(to right, grey, green);
+    background-image: linear-gradient(to bottom right, #00203FFF, #ADEFD1FF);
     text-align: center;
     font-size: 30px;
     color: white;
     
 }
 .topbar {
-    background-image: linear-gradient(to right, black, royalblue);
+    background-image: linear-gradient(to right, #00539CFF, #EEA47FFF);
     overflow: hidden;
 }
 .topbar a {

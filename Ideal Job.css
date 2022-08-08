@@ -6,6 +6,9 @@ body {
     color: white;
     
 }
+img {
+  z-index: -1;
+}
 .topbar {
     background-image: linear-gradient(to right, #00539CFF, #EEA47FFF);
     overflow: hidden;

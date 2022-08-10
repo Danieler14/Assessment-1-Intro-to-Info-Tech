@@ -42,7 +42,65 @@
        <br>
 
        <h2>Description</h2>
-       <p>dude</p>
+       <p>UO bot will have a couple of features. 
+        One of the features requires an input command (for example, /Pikachu). 
+        The bot will then read this command and the pokemon and have a specified output. 
+        In this case, it will give information and provide an image of the pokemon, such as its type, height, weight, forms,
+        base stats, move learnset and more. The bot will format this information in a way that is suitable for reading. 
+        It could have different information on each line, in alphabetical order. For example:
+        <br>Pokemon: Pikachu
+        <br>Type: Electric
+        <br>HP: 35
+        <br>Attack: 55
+        <br>Defense: 40
+        <br>Sp. Attack: 50
+        <br>Sp. Defense: 50
+        <br>Speed: 90
+        <br>Learnset:
+        <br>- Spark
+        <br>- Iron Tail
+        <br>- Quick Attack
+        <br>- Volt Switch
+        <br>- Charm
+        <br>…
+        <br>If the user would like to know the recommended set of the pokemon, the main feature of this bot,
+        there must be a new command that includes the pokemon’s name, -recommended and the battle format 
+        (for example, /Pikachu-Recommended). The bot will then understand this input and spit out an output of a required set.
+        This includes the stated Pokemon and battle format (from the input), recommended nature, ability, item, moveset,
+        EVs/IVs and reasoning behind these suggestions.  Similar to the first feature,
+        UO bot will format this information so that it is easy to read for the user. An example could be:
+        <br>
+        <br>Pokemon: Incineroar
+        <br>Format: VGC22/Series 12
+        <br>Nature: Impish
+        <br>Ability: Intimidate
+        <br>Item: Safety Goggles/Shuca Berry
+        <br>EVs: 252 HP / 4 Atk / 156 Def / 0 SpA / 84 SpD / 12 Spe
+        <br>IVs: 31 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 31 Spe
+        <br>Moves:
+        <br>- Fake Out
+        <br>- Flare Blitz
+        <br>- Parting Shot
+        <br>- Darkest Lariat/Snarl/Throat Chop
+        <br>
+        <br>Reasoning:
+        Fake Out is used to pressure opposing pokemon (undynamaxed) to switch out or use Protect because Fake Out
+        has a priority of +3 which usually always goes first. Upon using this move, the inflicted pokemon cannot move during the
+        turn as they are “flinched”...
+        
+        <br>
+        <br>Furthermore, if the user would like to import these recommended sets into Pokemon Showdown so that they can be used
+        instantly, the user would have to input another command such as, /Zacian-Paste, which gives a URL to https://pokepast.es/
+        whilst also inputting the recommended set into the website. The website will enable the user to export the set to Pokemon
+        Showdown, allowing the user to use the Pokemon on Pokemon Showdown instantly and test out the sets. 
+        <br>
+        <br>Finally, the user may also like to know the checks and counters of any pokemon.
+        UO bot will have an additional feature that outputs the reasoning behind a pokemon’s counters. For example,
+        Heatran walls Venusaur because of its typing, as Heatran is a Fire and Steel type whilst Venusaur
+        is a Grass and Poison type. Although Venusaur has access coverage moves like Earth Power which is
+        4x effective against Heatran, Heatran could hold an Air Balloon as its item, making ground type moves immune,
+        unless they “pop” the Air Balloon…
+        </p>
        <br>
 
        <h2>Tools and Technologies</h2>
